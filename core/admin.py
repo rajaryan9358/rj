@@ -1,0 +1,21 @@
+from django.contrib import admin
+from .models import *
+
+admin.site.register(RegisteredUsers)
+admin.site.register(Employee)
+admin.site.register(Employer)
+admin.site.register(Payment_Employee)
+admin.site.register(Payment_Employer)
+admin.site.register(Employee_To_Employer_Job)
+admin.site.register(Employer_To_Employee_Job)
+admin.site.register(Job)
+admin.site.register(Employee_To_Employer_Call)
+admin.site.register(Employer_To_Employee_Call)
+admin.site.register(EmployeeSubscription)
+admin.site.register(EmployerSubscription)
+admin.site.register(RequestACall)
+admin.site.register(ReferredBy)
+admin.site.register(JobCategory)
+admin.site.register(HiringTable)
+admin.site.register(Contact_phone)
+admin.site.register(Notification)
